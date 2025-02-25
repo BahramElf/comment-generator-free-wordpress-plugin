@@ -1,0 +1,18 @@
+== Changelog ==
+
+= 1.0.0 - 2025-01-17 =
+* Initial release
+* Added comment generation functionality for posts, pages and WooCommerce products
+* Implemented settings page with customizable options:
+  - Comment count control
+  - Date range selection
+  - Product review rating settings
+  - Buyer and non-buyer comment templates
+* Added author name management
+* Integrated AJAX-based commented items deletion
+* Added multilingual support
+* Implemented security features:
+  - Nonce verification
+  - Capability checks
+  - Input sanitization
+* Added localization support with text domain

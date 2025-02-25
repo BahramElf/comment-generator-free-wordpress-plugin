@@ -1,0 +1,351 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Comment Generator Pro\n"
+"POT-Creation-Date: 2023-08-31 10:25+0330\n"
+"PO-Revision-Date: 2023-08-31 10:26+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: comment-generator.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: includes/comment-generator-Register-settings.php:7
+#: includes/comment-generator-settings.php:465
+msgid "Comment Generator Pro"
+msgstr "کامنت گذار حرفه‌ای وردپرس و ووکامرس"
+
+#: includes/comment-generator-Register-settings.php:8
+msgid "Comment Generator"
+msgstr "کامنت ساز حرفه‌ای"
+
+#: includes/comment-generator-Register-settings.php:21
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: includes/comment-generator-Register-settings.php:59
+msgid "Comment Generation Settings"
+msgstr "تنظیمات کامنت ساز"
+
+#: includes/comment-generator-Register-settings.php:66
+msgid "Comment Mode"
+msgstr "نوع ساخت دیدگاه"
+
+#: includes/comment-generator-Register-settings.php:73
+msgid "Specific post id"
+msgstr "ID پست"
+
+#: includes/comment-generator-Register-settings.php:81
+msgid "Post Type"
+msgstr "نوع پست"
+
+#: includes/comment-generator-Register-settings.php:88
+#: includes/comment-generator-settings.php:24
+msgid "Category"
+msgstr "دسته بندی"
+
+#: includes/comment-generator-Register-settings.php:96
+msgid "Number of Posts"
+msgstr "تعداد پست"
+
+#: includes/comment-generator-Register-settings.php:104
+msgid "Number of Comments"
+msgstr "تعداد دیدگاه"
+
+#: includes/comment-generator-Register-settings.php:111
+msgid "Date of Comments from"
+msgstr "تاریخ ایجاد دیدگاه از"
+
+#: includes/comment-generator-Register-settings.php:118
+msgid "Product review rating"
+msgstr "امتیاز دیدگاه برای محصول"
+
+#: includes/comment-generator-Register-settings.php:126
+msgid "Product stock status"
+msgstr "وضعیت موجودی محصول"
+
+#: includes/comment-generator-Register-settings.php:134
+msgid "Comment status"
+msgstr "وضعیت دیدگاه"
+
+#: includes/comment-generator-Register-settings.php:141
+msgid "Comment from"
+msgstr "دیدگاه از طرف"
+
+#: includes/comment-generator-Register-settings.php:149
+msgid "General Comment Sentences"
+msgstr "جملات دیدگاه‌ عمومی"
+
+#: includes/comment-generator-Register-settings.php:158
+msgid "General product buyer Sentences"
+msgstr "جملات دیدگاه‌ خریداران تایید شده برای محصول"
+
+#: includes/comment-generator-Register-settings.php:167
+msgid "General product none buyer Sentences"
+msgstr "جملات دیدگاه‌ کاربر(غیر خریدار) برای محصول"
+
+#: includes/comment-generator-Register-settings.php:176
+msgid "Custom Comment Authors"
+msgstr "نویسنده‌گان دیدگاه‌"
+
+#: includes/comment-generator-Register-settings.php:184
+msgid "Delete Commented Items"
+msgstr "حذف لیست پست‌های کامنت گذاری شده"
+
+#: includes/comment-generator-settings.php:9
+msgid ""
+"Please specify the number of comments and posts according to your hosting "
+"and server resources."
+msgstr ""
+"لطفا تعداد نظرات و پست‌ها را با توجه به منابع هاست و سرور خود مشخص کنید."
+
+#: includes/comment-generator-settings.php:10
+msgid ""
+"If you intend to create a large number of comments, consider doing it in "
+"batches."
+msgstr ""
+"اگر قصد دارید تعداد زیادی نظر ایجاد کنید، این کار را به صورت بخش بندی شده "
+"انجام دهید."
+
+#: includes/comment-generator-settings.php:11
+msgid ""
+"Otherwise, you may encounter temporary server resource errors or the website "
+"may become temporarily unavailable."
+msgstr ""
+"در غیر این صورت، ممکن است در زمان ایجاد دیدگاه‌ها با خطاهایی مثل ارور 500 "
+"مواجه شوید یا سایت شما به طور موقت در دسترس خارج شود."
+
+#: includes/comment-generator-settings.php:12
+msgid "We suggest creating 200 to 400 comments in each batch."
+msgstr ""
+"پیشنهاد ما ساخت ۲۰۰ تا ۴۰۰ کامنت در هر مرحله است. (کاملا به هاست شما بستگی "
+"دارد.)"
+
+#: includes/comment-generator-settings.php:21
+msgid "Single Post"
+msgstr "پست تکی"
+
+#: includes/comment-generator-settings.php:34
+msgid "Select PostType"
+msgstr "انتخاب نوع پست"
+
+#: includes/comment-generator-settings.php:40
+msgid ""
+"It is important to choose the correct post type, both in individual "
+"commenting mode and in group commenting mode."
+msgstr ""
+"انتخاب نوع پست صحیح، چه در حالت ثبت دیدگاه روی پست تکی و چه در حالت دسته "
+"بندی ضروری است."
+
+#: includes/comment-generator-settings.php:60
+msgid "Select Category"
+msgstr "انتخاب دسته بندی"
+
+#: includes/comment-generator-settings.php:96
+msgid ""
+"You can use plugins like \"Reveal IDs\" or \"Catch IDs\" to find and view "
+"the ID of a pages, articles, products, etc."
+msgstr ""
+"برای پیدا کردن ID پست، صفحه، محصولات و غیره می‌توانید از افزونه‌هایی مانند "
+"\"Reveal IDs\" یا \"Catch IDs\" استفاده کنید."
+
+#: includes/comment-generator-settings.php:122
+msgid "Month ago"
+msgstr "ماه قبل"
+
+#: includes/comment-generator-settings.php:134
+msgid "3 and above (out of 5 stars)"
+msgstr "۳ و بیشتر (از ۵ ستاره)"
+
+#: includes/comment-generator-settings.php:135
+msgid "4 and above (out of 5 stars)"
+msgstr "۴ و بیشتر (از ۵ستاره)"
+
+#: includes/comment-generator-settings.php:146
+msgid "Approved"
+msgstr "تایید شده"
+
+#: includes/comment-generator-settings.php:147
+msgid "Pending"
+msgstr "در انتظار بررسی"
+
+#: includes/comment-generator-settings.php:158
+msgid "Buyer"
+msgstr "خریدار"
+
+#: includes/comment-generator-settings.php:159
+msgid "User"
+msgstr "کاربر"
+
+#: includes/comment-generator-settings.php:160
+msgid "Random"
+msgstr "تصادفی"
+
+#: includes/comment-generator-settings.php:171
+msgid "In stock"
+msgstr "موجود"
+
+#: includes/comment-generator-settings.php:172
+msgid "Out of stock"
+msgstr "ناموجود"
+
+#: includes/comment-generator-settings.php:194
+msgid "General Comments, Enter one sentence per line"
+msgstr "دیدگاه‌های عمومی، هر جمله در یک خط"
+
+#: includes/comment-generator-settings.php:221
+msgid "Comments from buyers of products, Enter one sentence per line"
+msgstr "دیدگاه‌های خریداران تایید شده برای محصول"
+
+#: includes/comment-generator-settings.php:248
+msgid ""
+"Products general comments from regular users (Non buyers),Enter one sentence "
+"per line"
+msgstr "دیدگاه‌های سایر کاربران برای محصول"
+
+#: includes/comment-generator-settings.php:275
+msgid ""
+"Add one author per line in the format \"Author Name|author@example.com\"."
+msgstr ""
+"نویسنده دیدگاه، هر خط یک نویسنده به صورت \"نام نویسنده|author@example.com\". "
+"ایمیل اجباری نیست."
+
+#: includes/comment-generator-settings.php:291
+msgid ""
+"If a comment is made on a post or product, the plugin saves its ID, so as to "
+"avoid creating consecutive comments on a post in a segmented implementation."
+msgstr ""
+"اگر نظری برای یک پست یا محصول ایجاد شود، افزونه ID آن را ذخیره می‌کند تا از "
+"ایجاد نظر به صورت متوالی روی یک پست جلوگیری شود."
+
+#: includes/comment-generator-settings.php:292
+msgid "You can delete the list of saved IDs by pressing the button below."
+msgstr ""
+"با زدن دکمه \"حذف لیست کامنتگذاری شده\"، لیست ID های ذخیره شده در حافظه پاک "
+"می‌شود."
+
+#: includes/comment-generator-settings.php:293
+msgid "This will not delete any comments."
+msgstr "اینکار هیچ پست یا دیدگاهی را حذف نمی‌کند."
+
+#: includes/comment-generator-settings.php:295
+msgid "Delete Commented Posts"
+msgstr "حذف لیست کامنتگذاری شده"
+
+#: includes/comment-generator-settings.php:338
+msgid "Commented items deleted successfully."
+msgstr "لیست پست‌های کامنتگذاری شده با موفقیت حذف شد."
+
+#: includes/comment-generator-settings.php:340
+msgid "Failed to delete commented items. Please try again."
+msgstr "خطا در زمان حذف لیست پست‌های کامنتگذاری شده. مجدد امتحان کنید."
+
+#: includes/comment-generator-settings.php:360
+msgid "Comment generation started."
+msgstr "ایجاد دیدگاه شروع شد..."
+
+#: includes/comment-generator-settings.php:371
+#, php-format
+msgid ""
+"Comments generated Report! \\n New comment created: %d \\n New commented "
+"posts: %d \\n Duplicate posts that were already commented: %d \\n If this is "
+"not your desired output, change the number of posts in the settings or use "
+"\"Delete Commented Posts\" button. "
+msgstr ""
+"گزارش کامنت‌های ایجاد شده! \n"
+" کامنت ایجاد شده: %d \n"
+" پست‌های کامنت گذاری شده: %d \n"
+" پست‌های تکراری که قبلاً نظر داده شده‌اند: %d \n"
+"اگر این خروجی مطلوب شما نیست، تعداد پست‌ها را در تنظیمات تغییر دهید یا از "
+"دکمه 'حذف پست‌های نظر داده شده' استفاده کنید."
+
+#: includes/comment-generator-settings.php:379
+msgid "No Comments generated! Check the input values and settings."
+msgstr "کامنتی ایجاد نشد! مقادیر ورودی و تنظیمات را بررسی کنید."
+
+#: includes/comment-generator-settings.php:564
+msgid ""
+"After each change in the settings or entered information, first click the "
+"save changes button and then start creating comments."
+msgstr ""
+"بعد از هر تغییر در تنظیمات افزونه یا اطلاعات وارد شده، اول دکمه ذخیره "
+"تغییرات را بزنید و سپس شروع به ایجاد دیدگاه کنید."
+
+#: includes/comment-generator-settings.php:569
+msgid "Start Generating Comments"
+msgstr "شروع ایجاد دیدگاه"
+
+#: includes/comment-generator-settings.php:590
+msgid "Please enter at least one Sentence and one Author for comments."
+msgstr "لطفا حداقل یک جمله و یک نویسنده را برای نظرات وارد کنید."
+
+#: includes/comment-generator-settings.php:591
+msgid ""
+"Please enter at least one Buyer Sentence, one none Buyer Sentenceone and "
+"Author for comments."
+msgstr ""
+"لطفاً حداقل یک جمله از طرف خریدار تایید شده، یکی از طرف کاربر بازدید کننده و "
+"یک نویسنده برای نظرات وارد کنید."
+
+#: includes/comment-generator-settings.php:592
+msgid "Please enter at least one Buyer Sentence and Author for comments."
+msgstr ""
+"لطفا حداقل یک جمله از طرف خریدار تایید شده و یک نویسنده را برای نظرات وارد "
+"کنید."
+
+#: includes/comment-generator-settings.php:593
+msgid ""
+"Please enter at least one none Buyer Sentenceone and Author for comments."
+msgstr ""
+"لطفاً حداقل یک جمله از طرف کاربر بازدید کننده و یک نویسنده برای نظرات وارد "
+"کنید."
+
+#: includes/zhaket-api.class.php:28
+#, php-format
+msgid ""
+"your server curl has problem, return code:%s, please ticket to host to fix "
+"curl problem for url %s"
+msgstr ""
+"curl سرور شما مشکل دارد، کد بازگشتی:%s، لطفاً برای رفع مشکل curl آدرس %s به "
+"هاست خود تیکت بزنید."
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wpex.ir"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A powerful plugin for creating comments on all kinds of posts, pages and "
+"products in WordPress and WooCommerce with professional settings for "
+"inserting comments in different modes. All rights of this plugin belongs to "
+"WPEX.ir"
+msgstr ""
+"افزونه‌ قدرتمند ساخت کامنت با پشتیبانی از انواع پست‌ها، صفحات و محصولات در "
+"وردپرس و ووکامرس همراه با پنل تنظیمات حرفه‌ای برای درج کامنت در حالت‌های "
+"مختلف. تمامی حقوق این افزونه متعلق به WPEX.ir می‌باشد."
+
+#. Author of the plugin/theme
+msgid "WPEX"
+msgstr ""
+
+#~ msgid "Activate Comment Generator plugin"
+#~ msgstr "فعال سازی افزونه کامنت گذار"
+
+#~ msgid "Enter your activation code"
+#~ msgstr "کد لایسنس خود را وارد کنید"
+
+#~ msgid "Activate"
+#~ msgstr "فعال سازی"

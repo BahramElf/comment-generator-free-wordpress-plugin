@@ -1,0 +1,181 @@
+/* Plugin Settings Page Styles */
+.wrap {
+    /*max-width: 800px;*/
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+}
+
+form p {
+    margin-bottom: 10px;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form select {
+    height: 40px;
+}
+
+form .button-primary,
+form .button-secondary {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Radio button styling */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Category select styling */
+#post-category {
+    width: 100%;
+    /* padding: 10px; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+button.button {
+    background-color: #0073aa;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.button:hover {
+    background-color: #005082;
+}
+
+/* Fancy Comment Mode Radio Buttons */
+input[type="radio"]+label {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 8px 16px;
+    border: 2px solid #0073aa;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="radio"]:checked+label {
+    background-color: #0073aa;
+    color: #fff;
+}
+
+/* Fancy field headings */
+.wpex_comment_generator_settings_section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Fancy field descriptions */
+.wpex_comment_generator_settings_section p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+/* Fancy textarea style */
+textarea {
+    resize: vertical;
+}
+
+/* Fancy select style */
+select {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Success message */
+.updated {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Error message */
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+#comment-generator-start-form #comment-generator-start-btn {
+    background: #0073aa;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    padding: 0 20px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: transparent;
+    font-size: 1.2em;
+}
+
+#comment-generator-start-form {
+    text-align: center;
+}
+
+#wpex_comment_generator_activate {
+    background: #35b129;
+    color: #fff;
+    border-radius: 3em;
+    padding: 1em 2em;
+    text-align: center;
+    margin: 1em auto;
+    border-color: transparent;
+    display: block;
+}
+
+#imp-note {
+    color: red;
+    font-size: 1em;
+    font-weight: 600;
+}
